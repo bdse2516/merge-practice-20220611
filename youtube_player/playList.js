@@ -1,9 +1,9 @@
 // YouTube Videio ID
 let playList = [
     "O5dvU4o2X8A",
-    // "SxZMS-ISbH4",
     "HXf4Ltggjfw",
     "c6gi6IP6ay4"
+    // "SxZMS-ISbH4"
 ];
 
 //播放起訖秒數

@@ -12,7 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="club_course/style.css" rel="stylesheet">
+    <link href="simple_rpg/style.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
@@ -36,14 +36,15 @@
                         <a class="nav-link" href="random_selector.html">RandomSelector<span
                                 class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Club Course<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="club_course.html">Club Course<span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="mind_quiz.html">MindQuiz<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="simple_rpg.html">SimpleRPG<span class="sr-only">(current)</span></a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">SimpleRPG<span class="sr-only">(current)</span></a>
                     </li>
                     <!-- <li class="nav-item">
               <a class="nav-link disabled" href="#">Disabled</a>
@@ -74,10 +75,15 @@
 
             <hr class="featurette-divider">
 
-            <h1>社團課程時間表</h1>
-            <table id="courseTable"></table><br>
-            請設定第一場次活動日期<input id="myDate" type="date" name="myDate">
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+            <h1>我要去右下角</h1>
+            <div>
+                <canvas id="myCanvas" width="600" height="600"></canvas>
+                <p id="talkBox"></p>
+            </div>
+
+
 
             <hr class="featurette-divider">
 
@@ -103,10 +109,9 @@
     <script src="assets/js/vendor/popper.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="assets/js/vendor/holder.min.js"></script>
-    <script src="club_course/topic.js" async defer></script>
-    <script src="club_course/main.js" async defer></script>
-
+    <script src="simple_rpg/main.js"></script>
 </body>
 
 </html>

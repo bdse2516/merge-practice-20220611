@@ -17,13 +17,19 @@ function setMonthAndDay(startMonth, startDay) {
     startDate.setSeconds(0);
 }
 
-setMonthAndDay(5, 3);
+setMonthAndDay(4, 1);
 
-let myDate = new Date(document.getElementById("myDate")[0]);
 
-function onChange(){
+// 想辦法事件驅動 input 重新驅動
+let myDate = document.getElementById("myDate");
+// let currentDate = new Date();
+
+function onChange() {
+    debugger;
+    // 取得值
     myDate.innerHTML = document.getElementById("myDate")[0];
     setMonthAndDay(myDate.getMonth, myDate.getDate);
 }
 
-myDate.addEventListener("onchange",onChange)
+myDate.addEventListener("change", onChange)
+

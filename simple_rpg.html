@@ -12,7 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="RandomSelector/style.css" rel="stylesheet">
+    <link href="simple_rpg/style.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
@@ -22,23 +22,33 @@
 
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="#">Carousel</a>
+            <a class="navbar-brand" href="#">Joe</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="random_selector.html">RandomSelector <span
+                        <a class="nav-link" href="random_selector.html">RandomSelector<span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                        <a class="nav-link" href="club_course.html">Club Course<span
+                                class="sr-only">(current)</span></a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mind_quiz.html">MindQuiz<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">SimpleRPG<span class="sr-only">(current)</span></a>
+                    </li>
+                    <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li> -->
                 </ul>
                 <form class="form-inline mt-2 mt-md-0">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -50,57 +60,37 @@
 
     <main role="main">
 
+
+
+
         <!-- Marketing messaging and featurettes
       ================================================== -->
         <!-- Wrap the rest of the page in another container to center all the content. -->
 
         <div class="container marketing">
 
+
+
             <!-- START THE FEATURETTES -->
 
             <hr class="featurette-divider">
 
-            <h1>?</h1>
-            <input type="button" value="今天晚上吃什麼">
-            <ul id="choices">
-                <li>磐岩妙廚</li>
-                <li>飯殿食堂</li>
-                <li>食藝</li>
-                <li>馮廚</li>
-                <li>丑霸臭臭鍋</li> <!-- 17:00前 -->
-                <li>永福麵飯館</li>
-                <li>江記美食</li>
-                <li>食藝飯包</li>
-                <li>一品饌</li>
-                <li>阿SIR飯包</li>
-                <li>京泉的燒肉飯</li>
-                <li>一家人便當</li>
-                <li>美味好快餐便當</li>
-                <li>九九食堂</li>
-                <!-- <li>中壢燒臘</li> -->
-                <!-- <img
-                        src="https://scontent.ftpe8-2.fna.fbcdn.net/v/t1.6435-9/94324718_2537416933241180_5811219347103809536_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=9_N8wgBgmp8AX8YzCwK&_nc_ht=scontent.ftpe8-2.fna&oh=00_AT9Ej_kYW2iVUR_lW5_sBF5tU2meJF-9esWYh7BXQr0KdQ&oe=6293E90F"
-                        width="500" height="500" alt="中壢燒臘"> -->
-                <!-- <li>上野烤肉飯</li> -->
-                <!-- <li>三郎</li> -->
-                <!-- <li>泰小米</li> -->
-                <!-- <li>中央排骨飯</li> 不外送-->
-                <!-- <li>梁社漢排骨</li> 外送範圍外-->
-                <!-- <li>幸福家常便當</li> -->
-                <!-- <li>張家鍋貼</li> 不外送-->
 
-            </ul>
-            <img>
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-            <script src="RandomSelector/main.js" async defer></script>
 
-            <hr class="featurette-divider">
+            <h1>我要去右下角</h1>
+            <div>
+                <canvas id="myCanvas" width="600" height="600"></canvas>
+                <p id="talkBox"></p>
+            </div>
+
+
 
             <hr class="featurette-divider">
 
             <!-- /END THE FEATURETTES -->
 
         </div><!-- /.container -->
+
 
         <!-- FOOTER -->
         <footer class="container">
@@ -119,8 +109,9 @@
     <script src="assets/js/vendor/popper.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="assets/js/vendor/holder.min.js"></script>
-    <script src="RandomSelector/main.js"></script>
+    <script src="simple_rpg/main.js"></script>
 </body>
 
 </html>
