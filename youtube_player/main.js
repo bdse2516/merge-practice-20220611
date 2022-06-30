@@ -1,17 +1,17 @@
-let player;
-let currentPlay = 0;
+let player; //yt player
+let currentPlay = 0 //紀錄目前播放歌曲
 
-//YouTube載入framework後自動會呼叫的
+// youtube載入framework後自動會呼叫的
 function onYouTubeIframeAPIReady() {
-    player = new YT.Player("player", {
+    player = new YT.Player("player", { //player為id
         height: "390",
         width: "640",
         videoId: playList[currentPlay],
         playerVars: {
             autoplay: 0,
             controls: 0,
-            start: playTime[currentPlay][0],
-            end: playTime[currentPlay][1],
+            start: playTime[currentPlay][0], //開始秒數
+            end: playTime[currentPlay][1], // 結束秒數
             iv_load_policy: 3,
             rel: 0
         },
@@ -21,9 +21,9 @@ function onYouTubeIframeAPIReady() {
         }
     });
 }
-
 function onPlayerReady(event) {
     $("#playButton").on("click", function () {
+        // 將標題title顯示到h2上
         $("h2").text(player.getVideoData().title);
         player.playVideo();
     });
@@ -55,5 +55,4 @@ function onPlayerStateChange(event) {
     if (event.data == 1) {
         $("h2").text(player.getVideoData().title);
     }
-
 }

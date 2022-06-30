@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>ClubCourse</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +37,7 @@
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Club Course<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">ClubCourse<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="mind_quiz.html">MindQuiz<span class="sr-only">(current)</span></a>
@@ -45,14 +45,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="simple_rpg.html">SimpleRPG<span class="sr-only">(current)</span></a>
                     </li>
-                    <!-- <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="youtube_player.html">YoutubePlayer<span
+                                class="sr-only">(current)</span></a>
+                    </li>
                 </ul>
-                <form class="form-inline mt-2 mt-md-0">
+                <!-- <form class="form-inline mt-2 mt-md-0">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                </form> -->
             </div>
         </nav>
     </header>
@@ -68,23 +69,19 @@
 
         <div class="container marketing">
 
-
-
             <!-- START THE FEATURETTES -->
 
             <hr class="featurette-divider">
 
             <h1>社團課程時間表</h1>
-            <table id="courseTable"></table><br>
-            請設定第一場次活動日期<input id="myDate" type="date" name="myDate">
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <table id="courseTable"></table><br>設定第一場次活動日期
+            <input type="date" id="startDate">
 
             <hr class="featurette-divider">
 
             <!-- /END THE FEATURETTES -->
 
         </div><!-- /.container -->
-
 
         <!-- FOOTER -->
         <footer class="container">
@@ -104,6 +101,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/vendor/holder.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="club_course/topic.js" async defer></script>
     <script src="club_course/main.js" async defer></script>
 

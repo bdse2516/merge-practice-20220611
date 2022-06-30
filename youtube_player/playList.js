@@ -1,14 +1,11 @@
-// YouTube Videio ID
 let playList = [
-    "O5dvU4o2X8A",
-    "HXf4Ltggjfw",
-    "c6gi6IP6ay4"
-    // "SxZMS-ISbH4"
+    "NBpu3Fhvkdc",
+    "3tzE98pQH08",
+    "kLTbBnBS3gE"
 ];
 
-//播放起訖秒數
 let playTime = [
-    [101, 109],
-    [144, 150],
-    [146, 152]
+    [10, 20],
+    [20, 30],
+    [30, 40]
 ];
